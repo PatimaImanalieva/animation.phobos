@@ -1,6 +1,8 @@
 
+/* ---------1280------------*/
 
-@media all and (max-width: 1280px) {
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1280px) {
   body, html {
     height: 2401.2px;
     width: 1280px;
@@ -43,10 +45,10 @@
   }
 
   .img0 {
-    height: 70px;
-    width: 70px;
-    top: 70%;
-    left: 32%;
+    height: 45px;
+    width: 45px;
+    top: 84%;
+    left: 38%;
   }
 
   .img1 {
@@ -64,7 +66,14 @@
 
   .rectangle1, .rectangle3, .rectangle2, .rectangle4, .rectangle5 {width: 12px;}
 
-  .rectangle2 {height: 17px;}
+  .rectangle2 {
+    height: 17px;
+    margin-top: -24.5%;
+  }
+
+  .rectangle5 {margin-top: -15.2%;}
+
+  .rectangle3 {margin-top: -33.5%;}
 
   .radar3 {
     width: 173.2px;
@@ -117,7 +126,7 @@
 }
 
 ._cer2 {
-  margin-top: -52%;
+  margin-top: -62%;
   margin-left: 70%;
   offset-path: path('M171 203.134H122.987H74.9744V109.526H135.077V13.5005H9');
 }
@@ -150,7 +159,7 @@
   width: 19.49px;
   height: 19.49px;
   margin-top: 22.5%;
-  margin-left: 8%;
+  margin-left: 8.2%;
   offset-path: path('M6 8.80408H19.9883C25.3833 8.80408 29.9853 12.7095 30.863 18.0326L39.4707 70.2404L49.6 131.677');
 }
 
@@ -200,7 +209,7 @@
 }
 
 .block6 {
-  width: 308px;
+  width: 329px;
   height: 334.2px;
 }
 
@@ -225,23 +234,23 @@
 }
 
 ._cer6 {
-  margin-left: 11.1%;
-  margin-top: 4.7%;
+  margin-left: 11%;
+  margin-top: 4.9%;
 }
 
 .cer6_0 {
   margin-left: 10.4%;
-  margin-top: 7.7%;
+  margin-top: 7.9%;
 }
 
 .cer6_1 {
   margin-left: 13.2%;
-  margin-top: 5.2%;
+  margin-top: 5.4%;
 }
 
 .cer6_2 {
-  margin-left: 14.1%;
-  margin-top: 7.5%;
+  margin-left: 14.89%;
+  margin-top: 7.9%;
 }
 
 .cer6_3 {
@@ -250,19 +259,19 @@
 }
 
 .cer6_5 {
-  margin-left: 8.3%;
-  margin-top: 6%;
+  margin-left: 8.9%;
+  margin-top: 6.2%;
 }
 
-._cer7 {margin-left: 1.9%;}
+._cer7 {margin-left: 1.1%;}
 
-.cer7_0 {margin-left: 4.9%;}
+.cer7_0 {margin-left: 4.1%;}
 
-.cer7_1 {margin-left: 7.9%;}
+.cer7_1 {margin-left: 7.1%;}
 
-.cer7_2 {margin-left: 1.9%;}
+.cer7_2 {margin-left: 1.3%;}
 
-.cer7_3 {margin-left: 4.9%;}
+.cer7_3 {margin-left: 4.2%;}
 
 .block9 {
   width: 111px;
@@ -271,9 +280,9 @@
 
 .block9line {
   margin-left: -1%;
-  margin-top: 30%;
+  margin-top: 70%;
   width: 100px;
-  height: 600px;
+  height: 500px;
 }
 
 .block11 {
@@ -452,5 +461,6 @@
   width: 1141px;
   height: 150px;
 }
-
 }
+
+/* ---------1440------------*/
