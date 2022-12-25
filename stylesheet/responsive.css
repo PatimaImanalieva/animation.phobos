@@ -2,8 +2,9 @@
 /* ---------1280------------*/
 
 
-@media only screen and (max-width: 1280px) {
-  body, html {
+@media only screen and (min-device-width: 1280px) and (max-device-width: 1440px) {
+
+    body, html {
     height: 2401.2px;
     width: 1280px;
   }
@@ -15,70 +16,76 @@
   }
 
   .block0 {
-    width: 1141px;
-    height: 150px;
+    width: 917px;
+    height: 120.3px;
   }
 
   .block1 {
-    width: 615px;
-    height: 390px;
+    width: 493px;
+    height: 312.8px;
   }
 
   .radar1 {
-    width: 193.2px;
-    height: 120px;
+    width: 155px;
+    height: 90px;
     margin-top: 6%;
+    border: 4px solid #03FF0D;
   }
 
-  .hr1, .hr2, .hr3 {width: 18px;}
+  .hr1, .hr2, .hr3 {
+    width: 14.4px;
+    border: 3px solid #03FF0D;
+  }
 
-  .hr1 {margin-top: 27px;}
+  .hr1 {margin-top: 22.6px;}
 
   .hr2 {
-    left: 30px;
-    top: 33px;
+    left: 24px;
+    top: 26.4px;
   }
 
   .hr3 {
-    left: 130px;
-    top: 33px;
+    left: 104.2px;
+    top: 26.4px;
   }
 
   .img0 {
-    height: 45px;
-    width: 45px;
+    height: 36px;
+    width: 36px;
     top: 84%;
     left: 38%;
   }
 
   .img1 {
-    height: 80px;
-    width: 80px;
+    height: 64px;
+    width: 64px;
     margin-left: 30%;
-    margin-top: 9%;
+    margin-top: 7%;
   }
 
   .radar2 {
-    width: 173.2px;
-    height: 80px;
+    width: 139px;
+    height: 64px;
     margin: 6% 9.4% 0 6.7%;
+    border: 4px solid #03FF0D;
   }
 
-  .rectangle1, .rectangle3, .rectangle2, .rectangle4, .rectangle5 {width: 12px;}
+  .rectangle1, .rectangle3, .rectangle2, .rectangle4, .rectangle5 {width: 10px;}
 
   .rectangle2 {
-    height: 17px;
-    margin-top: -24.5%;
+    height: 13.6px;
+    margin-top: -30.6%;
   }
 
-  .rectangle5 {margin-top: -15.2%;}
+  .rectangle5 {margin-top: -19.2%;}
 
-  .rectangle3 {margin-top: -33.5%;}
+  .rectangle3 {margin-top: -41.2%;}
 
   .radar3 {
-    width: 173.2px;
-    height: 80px;
+    width: 139px;
+    height: 64px;
     margin: -17% 0 0 60%;
+    border: 4px solid #03FF0D;
   }
 
   .cercile {
@@ -87,29 +94,31 @@
   }
 
   .cer1 {
-    margin-right: 5px;
-    width: 23px;
-    height: 23px;
+    margin-right: 4px;
+    width: 18.4px;
+    height: 18.4px;
   }
 
 
   .block2 {
-    width: 615px;
-    height: 623.4px;
+    width: 493px;
+    height: 500px;
   }
 
   .lab {
-    width: 357px;
-    height: 564px;
+    transform: scale(0.5);
+    margin-top: -50%;
+    margin-left: -12%;
   }
 
   .line1 {
-    margin-top: -90%;
-    width: 178px;
+    margin-top: -130%;
+    width: 150px;
   }
 
   .line2 {
-    width: 188px;
+    width: 150px;
+    margin-top: -110%;
     margin-left: 70%;
   }
 
@@ -119,32 +128,32 @@
   }
 
   ._cer3 {
-    margin-top: -89%;
+    margin-top: -99%;
     margin-left: -1.3%;
     offset-path: path('M9 13.0004H72.9553V172.888H171');
 
   }
 
   ._cer2 {
-    margin-top: -62%;
+    margin-top: -102%;
     margin-left: 70%;
     offset-path: path('M171 203.134H122.987H74.9744V109.526H135.077V13.5005H9');
   }
 
   .block3 {
-    width: 615px;
-    height: 136.8px;
+    width: 493px;
+    height: 109.7px;
   }
 
   .block4 {
-    width: 515px;
-    height: 588px;
+    width: 415px;
+    height: 471.5px;
   }
 
   .humlab1 {
-    width: 454px;
-    height: 510px;
-    margin-top: -13%;
+    width: 364px;
+    height: 409px;
+    margin-top: -21%;
     margin-left: 7%;
   }
 
@@ -158,49 +167,49 @@
   ._cer5 {
     width: 19.49px;
     height: 19.49px;
-    margin-top: 22.5%;
-    margin-left: 8.2%;
+    margin-top: 17.5%;
+    margin-left: 6%;
     offset-path: path('M6 8.80408H19.9883C25.3833 8.80408 29.9853 12.7095 30.863 18.0326L39.4707 70.2404L49.6 131.677');
   }
 
   .block5 {
-    width: 516px;
-    height: 227.4px;
+    width: 416px;
+    height: 182.3px;
   }
 
   .tabletline {
-    width: 53px;
-    height: 71px;
+    width: 45px;
+    height: 77px;
   }
 
   .cer3, .cer4, .cer5 {
-    width: 20px;
-    height: 20px;
+    width: 16px;
+    height: 16px;
   }
 
-  .cer3 {top: 50px;}
+  .cer3 {top: 36px;}
 
   @keyframes cer3 {
-    0% {left: 21%;}
+    0% {left: 19%;}
     100% {left: 27%;}
   }
 
   .cer4
   {
-    top: 82px;
-    left: 124px;
+    top: 72px;
+    left: 84px;
   }
 
-  .cer5 {top: 116px;}
+  .cer5 {top: 108px;}
 
   @keyframes cer5 {
     0% {left: 27%;}
-    100% {left: 21%;}
+    100% {left: 19%;}
   }
 
   .tablet {
-    width: 198px;
-    height: 119px;
+    width: 158px;
+    height: 95.px;
   }
 
   ._cer4 {
@@ -209,162 +218,174 @@
   }
 
   .block6 {
-    width: 329px;
-    height: 334.2px;
+    width: 228px;
+    height: 269px;
   }
 
-  .block7 {height: 120.2px;}
+  .block7, .block8 {
+    display:flex;
+  }
 
-  .block8 {height: 202px;}
+  .block7 {
+    height: 94.4px;
+  }
+
+  .block8 {
+    height: 164.4px;
+  }
 
   .block7line {
     width: 100px;
-    height: 135px;
+    height: 110px;
   }
 
   .block8line {
     width: 100px;
-    height: 217px;
+    height: 178px;
   }
 
   .humanbrain {
-    width: 253px;
-    height: 283px;
-    margin-top: 16%;
+    width: 203px;
+    height: 227px;
+    margin-top: 18%;
   }
 
   ._cer6 {
-    margin-left: 11%;
-    margin-top: 4.9%;
+    margin-left: 6%;
+    margin-top: 4.6%;
   }
 
   .cer6_0 {
-    margin-left: 10.4%;
-    margin-top: 7.9%;
+    margin-left: 10.2%;
+    margin-top: 5.8%;
   }
 
   .cer6_1 {
-    margin-left: 13.2%;
-    margin-top: 5.4%;
+    margin-left: 7.7%;
+    margin-top: 3.6%;
   }
 
   .cer6_2 {
-    margin-left: 14.89%;
-    margin-top: 7.9%;
+    margin-left: 7.2%;
+    margin-top: 5.3%;
   }
 
   .cer6_3 {
-    margin-left: 12.8%;
-    margin-top: 6.6%;
+    margin-left: 9.5%;
+    margin-top: 4.5%;
   }
 
   .cer6_5 {
-    margin-left: 8.9%;
-    margin-top: 6.2%;
+    margin-left: 4.7%;
+    margin-top: 5.7%;
   }
 
   ._cer7 {margin-left: 1.1%;}
 
-  .cer7_0 {margin-left: 4.1%;}
+  .cer7_0 {margin-left: 4.2%; margin-top: -13%;}
 
-  .cer7_1 {margin-left: 7.1%;}
+  .cer7_1 {margin-left: 7.1%; margin-top: -5%;}
 
   .cer7_2 {margin-left: 1.3%;}
 
   .cer7_3 {margin-left: 4.2%;}
 
   .block9 {
-    width: 111px;
-    height: 684px;
+    width: 89px;
+    height: 548.5px;
   }
 
   .block9line {
     margin-left: -1%;
-    margin-top: 70%;
-    width: 100px;
-    height: 500px;
+    margin-top: 50%;
+    width: 79px;
+    height: 450px;
   }
 
   .block11 {
-    width: 562.4px;
-    height: 196.8px;
+    width: 451px;
+    height: 157.8px;
   }
 
   .block12 {
-    width: 563.4px;
-    height: 477.4px;
+    width: 451px;
+    height: 380px;
   }
 
-  .rectangle6, .rectangle7, .rectangle8, .rectangle9, .rectangle10, .rectangle11, .rectangle12, .rectangle13 {width: 6px;}
+  .rectangle6, .rectangle7, .rectangle8, .rectangle9, .rectangle10, .rectangle11, .rectangle12, .rectangle13 {width: 5px;}
 
-  .rectangle6 {height: 150px;}
+  .rectangle6 {height: 120.3px;}
 
   @keyframes moveline6 {
-    0% {height: 150px;}
-    50% {height: 90px;}
-    100% {height: 150px;}
+    0% {height: 120.3px;}
+    50% {height: 72px;}
+    100% {height: 120.3px;}
   }
 
-  .rectangle7 {height: 204px;}
+  .rectangle7 {height: 153px;}
 
   @keyframes moveline7 {
-    0% {height: 204px;}
-    50% {height: 122px;}
-    100% {height: 204px;}
+    0% {height: 153px;}
+    50% {height: 98px;}
+    100% {height: 153px;}
   }
 
-  .rectangle8 {height: 108px;}
+  .rectangle8 {height: 86px;}
 
   @keyframes moveline8 {
-    0% {height: 108px;}
-    50% {height: 65px;}
-    100% {height: 108px;}
+    0% {height: 86px;}
+    50% {height: 52px;}
+    100% {height: 86px;}
   }
 
-  .rectangle9 {height: 60px;}
+  .rectangle9 {height: 48px;}
 
   @keyframes moveline9 {
-    0% {height: 60px;}
-    50% {height: 10px;}
-    100% {height: 60px;}
+    0% {height: 48px;}
+    50% {height: 8px;}
+    100% {height: 48px;}
   }
 
 
   .rectangle10 {
-    height: 60px;
-    margin-top: -5.4%;
+    height: 48px;
+    margin-top: -3.8%;
+    margin-left: 7%;
   }
 
   .rectangle11 {
-    height: 108px;
-    margin-top: -9.4%;
+    height: 86px;
+    margin-top: -6.5%;
+    margin-left: 16%;
   }
 
   .rectangle12 {
-    height: 204px;
-    margin-top: -16.7%;
+    height: 163px;
+    margin-top: -12.5%;
+    margin-left: 23%;
   }
 
   .rectangle13 {
-    height: 150px;
-    margin-top: -12.4%;
+    height: 120px;
+    margin-top: -9.4%;
+    margin-left: 30%;
   }
 
   .block12pic {
-    width: 409px;
-    height: 327px;
-    margin-top: 27%;
+    width: 328px;
+    height: 262px;
+    margin-top: 24%;
     margin-left: -2.3%;
   }
 
   .block13 {
-    width: 448.8px;
-    height: 385.8px;
+    width: 361px;
+    height: 309.4px;
   }
 
   .humanlab2 {
-    width: 253px;
-    height: 281px;
+    width: 203px;
+    height: 225.3px;
     margin-top: 24%;
     margin-left: 9%;
   }
@@ -376,14 +397,15 @@
   }
 
   .radars_0 {
-    wight: 130px;
-    height: 130px;
-    margin: % 60%;}
+    wight: 104px;
+    height: 104px;
+    margin: -8% 60%;
+  }
 
   .radars {
-    wight: 130px;
-    height: 130px;
-    margin-left: 70%;
+    wight: 104px;
+    height: 104px;
+    margin-left: 67%;
   }
 
   .strokecer1, .strokecer2 {
@@ -393,35 +415,35 @@
   }
 
   .block14 {
-    width: 448.8px;
-    height: 185.4px;
+    width: 362px;
+    height: 148.6px;
   }
 
   .block14cer {
-    width: 72px;
-    height: 72px;
+    width: 58px;
+    height: 58px;
     margin-top: 2%;
-    margin-left: 35%;
+    margin-left: 32%;
   }
 
   .block14radar {
-    width: 181.5px;
-    height: 78px;
+    width: 140px;
+    height: 62.5px;
     margin-left: 3%;
-    margin-top: -5%;
+    margin-top: -2%;
   }
 
   .ellipse6 {
     margin-top: 4%;
     margin-left: 6%;
     margin-bottom: 7%;
-    width: 52px;
-    height: 52px;
+    width: 42px;
+    height: 42px;
   }
 
   .block14line {
-    width: 68px;
-    height: 74px;
+    width: 54.5px;
+    height: 59px;
   }
 
   .block14_1, .block14_2 {
@@ -429,38 +451,32 @@
   }
 
   .block15 {
-    width: 448.8px;
-    height: 198.3px;
+    width: 362px;
+    height: 159px;
   }
 
   .block16 {
-    width: 448.8px;
-    height: 298.6px;
+    width: 362px;
+    height: 240px;
   }
 
   .box1_2 {
-    margin-top: -441px;
+    margin-top: -340px;
   }
 
   .block10 {
-    width: 376px;
-    height: 405px;
-    margin-top: 2.8%;
+    width: 301.5px;
+    height: 331px;
   }
 
   .block19, .block18 {
-    width: 299.2px;
-    height: 197.4px;
+    width: 239px;
+    height: 157.8px;
   }
 
-  .box1_3 {
-    margin-top: 2%;
-  }
 
   .blockfuter {
-    width: 1141px;
-    height: 150px;
+    width: 920px;
+    height: 120.3px;
   }
 }
-
-/* ---------1440------------*/
